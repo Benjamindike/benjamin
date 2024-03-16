@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 5;
+  padding: 5;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 13%;
+    padding: 20px 10%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    z-index: 70;
+}
+
+.logo {
+    font-size: 45px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .2s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rebeccapurple;
+}
+  
+  main {
+    padding: 20px;
+    height: 80%;
+    background: url('about\ background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Adds a semi-transparent black background */
+  }
+  
+  .intro,
+  .skills,
+  .experience,
+  .education {
+    margin-bottom: 30px;
+  }
+  
+  .intro h2,
+  .skills h2,
+  .experience h2,
+  .education h2 {
+    color: #3498db;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0
+  }
